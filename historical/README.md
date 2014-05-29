@@ -1,8 +1,6 @@
-Contents of this directory include the following:
-
-src/pkg/runtime/tiny/
+original tiny
 ====
-This is the last instance of runtime/tiny/ in the Go history. I pulled it from revision 6185df48facb.
+This is the last instance of src/pkg/runtime/tiny/ in the Go history.
 
 https://code.google.com/p/go/source/detail?r=820f713f76f62b07c4df984125e104c7d165ade4
 https://codereview.appspot.com/3996047
@@ -17,30 +15,6 @@ Here is the comment of the removal commit:
 
 > The source code will of course remain in the repository
 > history, so it could be brought back if needed later.
-
-> R=r, r2, uriel
-> CC=golang-dev
-> http://codereview.appspot.com/3996047
->
-> Affected files
->	Modify	/src/pkg/runtime/Makefile	diff
->	Delete	/src/pkg/runtime/tiny/386/defs.h	diff
->	Delete	/src/pkg/runtime/tiny/386/rt0.s	diff
->	Delete	/src/pkg/runtime/tiny/386/signal.c	diff
->	Delete	/src/pkg/runtime/tiny/386/sys.s	diff
->	Delete	/src/pkg/runtime/tiny/README	diff
->	Delete	/src/pkg/runtime/tiny/arm/defs.h	diff
->	Delete	/src/pkg/runtime/tiny/arm/rt0.s	diff
->	Delete	/src/pkg/runtime/tiny/arm/signal.c	diff
->	Delete	/src/pkg/runtime/tiny/arm/sys.s	diff
->	Delete	/src/pkg/runtime/tiny/bootblock	diff
->	Delete	/src/pkg/runtime/tiny/dot-bochsrc	diff
->	Delete	/src/pkg/runtime/tiny/io.go	diff
->	Delete	/src/pkg/runtime/tiny/mem.c	diff
->	Delete	/src/pkg/runtime/tiny/os.h	diff
->	Delete	/src/pkg/runtime/tiny/runtime_defs.go	diff
->	Delete	/src/pkg/runtime/tiny/signals.h	diff
->	Delete	/src/pkg/runtime/tiny/thread.c	diff
 
 changes in runtime organization
 ====
