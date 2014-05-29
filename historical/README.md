@@ -47,6 +47,7 @@ changes in runtime organization
 At this 479bba71fb07, the organization of the runtime code was changed to the platform/architecture file naming convention instead of folders. This is important if you want to integrate the old tiny runtime code into the more recent code tree.
 
 https://code.google.com/p/go/source/detail?r=479bba71fb0739f76ce3e3d0f63f1a78acb9e79c
+https://codereview.appspot.com/5490053
 
 Here is the comment of the removal commit:
 
