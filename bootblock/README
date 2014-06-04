@@ -1,0 +1,13 @@
+The contents of this directory were sourced from the xv6 project:
+
+http://pdos.csail.mit.edu/6.828/2012/xv6.html
+
+Please refer to the README associated with that project in this folder, 'README.xv6'.
+
+The contents of this directory should be limited to the bootblock portion of that project.
+Consequently, the Makefile for that project should be stripped down to build only the bootblock.
+
+The bootblock was included as a binary into the Go tiny runtime to bootstrap that runtime.
+While this was sufficient at the time, it seemed appropriate to include the code for
+reference and education while trying to rehabilitate the tiny runtime.
+
